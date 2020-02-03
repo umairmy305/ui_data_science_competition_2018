@@ -24,9 +24,9 @@ plt.rcParams['figure.figsize'] = (10,6)
 path = os.getcwd()
 
 ############################# Import Data #####################################
-Train_data=pd.read_csv(path+'\\data\\train.csv')
-Train_labels=pd.read_csv(path+'\\data\\train_labels.csv')
-Test_data=pd.read_csv(path+'\\data\\test.csv')
+Train_data=pd.read_csv(path+'\\train.csv')
+Train_labels=pd.read_csv(path+'\\train_labels.csv')
+Test_data=pd.read_csv(path+'\\test.csv')
 
 ############################# Pre-Processing ##################################
 # Data re-organization and visualization
